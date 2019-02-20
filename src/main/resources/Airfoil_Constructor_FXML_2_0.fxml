@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.barlo.airfoil_constructor.controller.AirfoilConstructorController">
+   <children>
+      <AnchorPane prefHeight="30.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <MenuBar maxHeight="-Infinity" maxWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="30.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Airfoils Data Base" onAction="#airfoilsDBWindow"/>
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" onAction="#newAboutWindow" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="30.0" prefHeight="770.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <ComboBox fx:id="airfoilSelector" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="134.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="152.0" />
+            <TextField fx:id="textField" layoutX="160.0" layoutY="14.0" prefHeight="27.0" prefWidth="134.0" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="6.0" />
+            <Button fx:id="calcButton" layoutX="160.0" layoutY="53.0" mnemonicParsing="false" onAction="#drawAirfoil" prefHeight="27.0" prefWidth="134.0" text="Build" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="53.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="310.0" layoutY="30.0" prefHeight="620.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <LineChart fx:id="lineChart" legendVisible="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <xAxis>
+                <NumberAxis autoRanging="false" side="BOTTOM" tickMarkVisible="true" tickUnit="0.1" upperBound="1" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis autoRanging="false" lowerBound="-0.5" side="LEFT" tickMarkVisible="true" tickUnit="0.1" upperBound="0.5" />
+              </yAxis>
+            </LineChart>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

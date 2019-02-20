@@ -1,0 +1,22 @@
+{
+  "1":{"airfoil":"Boeing F4B-2","root":"Boeing 106","tip":"Boeing 106"},
+  "2":{"airfoil":"Boeing B-17 Flying Fortress","root":"NACA 0018","tip":"NACA 0010"},
+  "3":{"airfoil":"Boeing B-29 Super Fortress","root":"Boeing 117 (22%)","tip":"Boeing 117 (9%)"},
+  "4":{"airfoil":"Boeing B-52 Stratofortress","root":"NACA 63A219.3 mod","tip":"NACA 65A209.5 mod"},
+  "5":{"airfoil":"Brewster F2A Buffalo","root":"NACA 23018","tip":"NACA 23009"},
+  "6":{"airfoil":"Cavalier F-51D Mustang","root":"NACA 45-100","tip":"NACA 45-100"},
+  "7":{"airfoil":"Consolidated P2Y-2","root":"Gottingen 398 mod","tip":"Gottingen 398 mod"},
+  "8":{"airfoil":"Consolidated PBY-1 Catalina","root":"NACA 21","tip":"NACA 21"},
+  "9":{"airfoil":"Curtiss F6C-1 Hawk","root":"Clark Y","tip":"Clark Y"},
+  "10":{"airfoil":"Curtiss P-40 Warhawk","root":"NACA 2215","tip":"NACA 2209"},
+  "11":{"airfoil":"Curtiss SB2C Helldiver","root":"NACA 23017","tip":"NACA 23009"},
+  "12":{"airfoil":"Curtiss SO2C","root":"NACA 0010 (upper)","tip":"NACA 2212 (lower)"},
+  "13":{"airfoil":"Douglas A2D Skyshark","root":"NACA 0012","tip":"NACA 0012"},
+  "14":{"airfoil":"Douglas A-1 Skyraider (AD)","root":"NACA 2417","tip":"NACA 4413"},
+  "15":{"airfoil":"Douglas A-20 Havoc","root":"NACA 23018","tip":"NACA 23009"},
+  "16":{"airfoil":"Douglas BTD-1","root":"Douglas 18%","tip":"NACA 65-2515"},
+  "17":{"airfoil":"Douglas DC-3","root":"NACA 2215","tip":"NNACA 2206"},
+  "18":{"airfoil":"Douglas XTB2D-1","root":"ES SH 4518","tip":"ES SH 4516"},
+  "19":{"airfoil":"Grumman F4F-3 Wildcat","root":"NACA 23015","tip":"NACA 23009"},
+  "20":{"airfoil":"Grumman F6F Hellcat","root":"NACA 23015.6","tip":"NACA 23009"}
+}

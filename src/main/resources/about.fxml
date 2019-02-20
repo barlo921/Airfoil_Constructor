@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="205.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Airfoil Constructor" AnchorPane.leftAnchor="205.0" AnchorPane.rightAnchor="204.26171875" AnchorPane.topAnchor="13.73046875">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   An airfoil is the cross-sectional shape of a wing, blade (of a propeller, rotor, or turbine), or sail (as seen in cross-section)." textAlignment="JUSTIFY" wrappingWidth="581.421875" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="4.578125" AnchorPane.topAnchor="54.53125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   The NACA airfoils are airfoil shapes for aircraft wings developed by the National Advisory Committee for Aeronautics (NACA). The shape of the NACA airfoils is described using a series of digits following the word &quot;NACA&quot;. The parameters in the numerical code can be entered into equations to precisely generate the cross-section of the airfoil and calculate its properties." textAlignment="JUSTIFY" wrappingWidth="581.421875" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="4.578125" AnchorPane.topAnchor="108.53125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   This program may help you to define specified airfoils by their codes. Hope it may help you to better understand airplanes or find graphical view of airfoil." textAlignment="JUSTIFY" wrappingWidth="573.4345703125" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.5654296875" AnchorPane.topAnchor="236.53125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
